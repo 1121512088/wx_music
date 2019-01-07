@@ -11,14 +11,14 @@
   ],
   "window":{
     "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#222",
+    "navigationBarBackgroundColor": "#918787",
     "navigationBarTitleText": "街道办_",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
-    "color": "#919191",
-    "selectedColor": "#ffcd32",
-    "backgroundColor": "#333",
+    "color": "#52a9ff",
+    "selectedColor": "#d4237a",
+    "backgroundColor": "#918787",
     "position": "bottom",
     "list": [
       {
