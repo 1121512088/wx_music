@@ -34,22 +34,22 @@ function filterSinger(singer) {
   return ret.join('/')
 }
 
-function getLyric(musicid) {
-  return new Promise((resolve, reject)=>{
-    wx.request({
-      url: `https://route.showapi.com/213-2?showapi_appid=54411&musicid=${musicid}&showapi_sign=55b7ca99e210452a86269a9f09def34c`,
-      success: function (res) {
-        resolve(res)
-      },
-      fail: function (res) {
-        reject(res)
-      }
-    })
-  })
-}
+// function getLyric(musicid) {
+//   return new Promise((resolve, reject)=>{
+//     wx.request({
+//       url: `https://route.showapi.com/213-2?showapi_appid=54411&musicid=${musicid}&showapi_sign=55b7ca99e210452a86269a9f09def34c`,
+//       success: function (res) {
+//         resolve(res)
+//       },
+//       fail: function (res) {
+//         reject(res)
+//       }
+//     })
+//   })
+// }
 
 module.exports = {
   createSong: createSong,
-  getLyric: getLyric,
+  // getLyric: getLyric,
   filterSinger: filterSinger
 }

@@ -3,10 +3,10 @@
   <view class='container-header'>
     纯属个人使用，如有侵权，请联系wx:1121512088
   </view>
-  <view class="search-wrapper" catchtap="toSearch">
+  <!-- <view class="search-wrapper" catchtap="toSearch">
     <input class="search" placeholder="输入歌手名、歌曲名搜索" placeholder-style="color: #ffcd32;" disabled placeholder-class="placeholder"/>
     <i class="icon-search"></i>
-  </view>
+  </view> -->
   <view class="slider-wrapper">
     <my-slider parent="{{is_modal_Msg}}" slider="{{slider}}"></my-slider>
   </view>

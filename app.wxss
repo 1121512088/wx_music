@@ -6,11 +6,11 @@ page{
   position: fixed;
   top: 0;
   color: #fff;
-  background:#222;
+  background:#918787;
 }
 .container {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  background: #222;
+  background: rgb(145, 135, 135);
 } 

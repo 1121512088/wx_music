@@ -39,7 +39,7 @@
 .content .tab .item{
     display: flex;
     font-size: 14px;
-    color: #aaa;
+    color: #000;
     padding: 20rpx 50rpx;
     height: 50rpx;
     line-height: 50rpx;

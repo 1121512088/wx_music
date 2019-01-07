@@ -157,20 +157,20 @@ Page({
 
   // 获取处理歌词
   _getLyricAction: function (currentSong) {
-    song.getLyric(currentSong.mid).then((res) => {
-      if (res.data.showapi_res_body.ret_code == 0) {
-        const lyric = this._normalizeLyric(res.data.showapi_res_body.lyric)
-        const currentLyric = new Lyric(lyric)
-        this.setData({
-          currentLyric: currentLyric
-        })
-      } else {
-        this.setData({
-          currentLyric: null,
-          currentText: ''
-        })
-      }
-    })
+    // song.getLyric(currentSong.mid).then((res) => {
+    //   if (res.data.showapi_res_body.ret_code == 0) {
+    //     const lyric = this._normalizeLyric(res.data.showapi_res_body.lyric)
+    //     const currentLyric = new Lyric(lyric)
+    //     this.setData({
+    //       currentLyric: currentLyric
+    //     })
+    //   } else {
+    //     this.setData({
+    //       currentLyric: null,
+    //       currentText: ''
+    //     })
+    //   }
+    // })
   },
   // 去掉歌词中的转义字符
   _normalizeLyric: function (lyric) {

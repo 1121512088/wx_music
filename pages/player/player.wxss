@@ -5,7 +5,7 @@
     top: 0;
     bottom: 0;
     z-index: 150;
-    background: #222;
+    background: #918787;
 }
 .player .normal-player .background {
     position: absolute;
