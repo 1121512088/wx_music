@@ -89,15 +89,21 @@ const request = {
 
 // 提示框
 const openAlert = (content) => {
-  wx.showModal({
-    content: content,
-    showCancel: false,
-    success: function (res) {
-      if (res.confirm) {
-        // console.log('用户点击确定')
-      }
-    }
-  });
+  // wx.showModal({
+  //   content: content,
+  //   showCancel: false,
+  //   success: function (res) {
+  //     if (res.confirm) {
+  //       // console.log('用户点击确定')
+  //     }
+  //   }
+  // });
+
+  wx.showToast({
+    title: '暂未权限请切换',
+    icon: 'loading',
+    duration: 1500
+  })
 }
 
 module.exports = {
