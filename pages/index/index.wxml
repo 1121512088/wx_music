@@ -3,16 +3,23 @@
   <view class='container-header'>
     纯属个人使用，如有侵权，请联系wx:1121512088
   </view>
+<<<<<<< HEAD
 
   <!-- <view class='container-header'>
     有些歌暂无权限，切换歌曲即可
   </view> -->
+=======
+>>>>>>> 7fa5e35d4c0faf8511316702b95843f3490975b8
   <!-- <view class="search-wrapper" catchtap="toSearch">
     <input class="search" placeholder="输入歌手名、歌曲名搜索" placeholder-style="color: #ffcd32;" disabled placeholder-class="placeholder"/>
     <i class="icon-search"></i>
   </view> -->
+<<<<<<< HEAD
 
   <!-- <view class="slider-wrapper">
+=======
+  <view class="slider-wrapper">
+>>>>>>> 7fa5e35d4c0faf8511316702b95843f3490975b8
     <my-slider parent="{{is_modal_Msg}}" slider="{{slider}}"></my-slider>
   </view> -->
   <view class="hot-list">
